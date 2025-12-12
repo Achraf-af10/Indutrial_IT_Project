@@ -1,0 +1,10 @@
+<launch>
+    <!-- Nœud DHT11 simulé -->
+    <node pkg="sensors" type="dht11_node.py" name="dht11_node" output="screen" />
+
+    <!-- Nœud micro simulé -->
+    <node pkg="sensors" type="micro_node.py" name="micro_node" output="screen" />
+
+    <!-- Nœud RFID simulé -->
+    <node pkg="sensors" type="rfid_node.py" name="rfid_node" output="screen" />
+</launch>

@@ -6,3 +6,5 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("demo_pkg")
+subdirs("test_sensor")
+subdirs("sensors")

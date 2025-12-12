@@ -147,6 +147,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/root/ws/build/gtest/cmake_install.cmake")
   include("/root/ws/build/demo_pkg/cmake_install.cmake")
+  include("/root/ws/build/test_sensor/cmake_install.cmake")
+  include("/root/ws/build/sensors/cmake_install.cmake")
 
 endif()
 

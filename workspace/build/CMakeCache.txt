@@ -406,6 +406,9 @@ demo_pkg_BINARY_DIR:STATIC=/root/ws/build/demo_pkg
 //Value Computed by CMake
 demo_pkg_SOURCE_DIR:STATIC=/root/ws/src/demo_pkg
 
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/noetic/share/geometry_msgs/cmake
+
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/root/ws/build/gtest/googlemock
 
@@ -470,8 +473,23 @@ rospy_DIR:PATH=/opt/ros/noetic/share/rospy/cmake
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
 
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/noetic/share/sensor_msgs/cmake
+
+//Value Computed by CMake
+sensors_BINARY_DIR:STATIC=/root/ws/build/sensors
+
+//Value Computed by CMake
+sensors_SOURCE_DIR:STATIC=/root/ws/src/sensors
+
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
+
+//Value Computed by CMake
+test_sensor_BINARY_DIR:STATIC=/root/ws/build/test_sensor
+
+//Value Computed by CMake
+test_sensor_SOURCE_DIR:STATIC=/root/ws/src/test_sensor
 
 
 ########################
@@ -621,7 +639,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
