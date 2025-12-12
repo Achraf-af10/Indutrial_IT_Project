@@ -1,0 +1,17 @@
+# ROS build
+workspace/build/
+workspace/devel/
+workspace/log/
+
+# Docker
+*.log
+*.tmp
+*.pid
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Certificats Flask si présents
+server.key
+server.crt
