@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  ros:
+    build: .
+    container_name: ros_noetic_env
+    volumes:
+      - ./workspace:/root/ws
+    command: bash -c "source /opt/ros/noetic/setup.bash && bash"
+    tty: true
+
