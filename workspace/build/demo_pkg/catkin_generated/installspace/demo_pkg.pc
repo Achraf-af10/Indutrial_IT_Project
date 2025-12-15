@@ -1,4 +1,4 @@
-prefix=/root/ws/install
+prefix=/root/Indutrial_IT_Project/workspace/install
 
 Name: demo_pkg
 Description: Description of demo_pkg

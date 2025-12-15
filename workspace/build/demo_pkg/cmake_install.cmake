@@ -1,8 +1,8 @@
-# Install script for directory: /root/ws/src/demo_pkg
+# Install script for directory: /root/Indutrial_IT_Project/workspace/src/demo_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/root/ws/install")
+  set(CMAKE_INSTALL_PREFIX "/root/Indutrial_IT_Project/workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/root/ws/build/demo_pkg/catkin_generated/installspace/demo_pkg.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/root/Indutrial_IT_Project/workspace/build/demo_pkg/catkin_generated/installspace/demo_pkg.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_pkg/cmake" TYPE FILE FILES
-    "/root/ws/build/demo_pkg/catkin_generated/installspace/demo_pkgConfig.cmake"
-    "/root/ws/build/demo_pkg/catkin_generated/installspace/demo_pkgConfig-version.cmake"
+    "/root/Indutrial_IT_Project/workspace/build/demo_pkg/catkin_generated/installspace/demo_pkgConfig.cmake"
+    "/root/Indutrial_IT_Project/workspace/build/demo_pkg/catkin_generated/installspace/demo_pkgConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_pkg" TYPE FILE FILES "/root/ws/src/demo_pkg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_pkg" TYPE FILE FILES "/root/Indutrial_IT_Project/workspace/src/demo_pkg/package.xml")
 endif()
 

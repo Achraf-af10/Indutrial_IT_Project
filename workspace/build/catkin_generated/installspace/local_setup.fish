@@ -5,7 +5,7 @@
 # or fall back to the destination set at configure time
 
 if test -z $_CATKIN_SETUP_DIR
-    set _CATKIN_SETUP_DIR /root/ws/install
+    set _CATKIN_SETUP_DIR /root/Indutrial_IT_Project/workspace/install
 end
 
 set CATKIN_SETUP_UTIL_ARGS "--extend --local"

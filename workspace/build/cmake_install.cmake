@@ -1,8 +1,8 @@
-# Install script for directory: /root/ws/src
+# Install script for directory: /root/Indutrial_IT_Project/workspace/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/root/ws/install")
+  set(CMAKE_INSTALL_PREFIX "/root/Indutrial_IT_Project/workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,106 +49,106 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/root/ws/install/_setup_util.py")
+   "/root/Indutrial_IT_Project/workspace/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/root/ws/install" TYPE PROGRAM FILES "/root/ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/root/Indutrial_IT_Project/workspace/install" TYPE PROGRAM FILES "/root/Indutrial_IT_Project/workspace/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/root/ws/install/env.sh")
+   "/root/Indutrial_IT_Project/workspace/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/root/ws/install" TYPE PROGRAM FILES "/root/ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/root/Indutrial_IT_Project/workspace/install" TYPE PROGRAM FILES "/root/Indutrial_IT_Project/workspace/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/root/ws/install/setup.bash;/root/ws/install/local_setup.bash")
+   "/root/Indutrial_IT_Project/workspace/install/setup.bash;/root/Indutrial_IT_Project/workspace/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/root/ws/install" TYPE FILE FILES
-    "/root/ws/build/catkin_generated/installspace/setup.bash"
-    "/root/ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/root/Indutrial_IT_Project/workspace/install" TYPE FILE FILES
+    "/root/Indutrial_IT_Project/workspace/build/catkin_generated/installspace/setup.bash"
+    "/root/Indutrial_IT_Project/workspace/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/root/ws/install/setup.sh;/root/ws/install/local_setup.sh")
+   "/root/Indutrial_IT_Project/workspace/install/setup.sh;/root/Indutrial_IT_Project/workspace/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/root/ws/install" TYPE FILE FILES
-    "/root/ws/build/catkin_generated/installspace/setup.sh"
-    "/root/ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/root/Indutrial_IT_Project/workspace/install" TYPE FILE FILES
+    "/root/Indutrial_IT_Project/workspace/build/catkin_generated/installspace/setup.sh"
+    "/root/Indutrial_IT_Project/workspace/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/root/ws/install/setup.zsh;/root/ws/install/local_setup.zsh")
+   "/root/Indutrial_IT_Project/workspace/install/setup.zsh;/root/Indutrial_IT_Project/workspace/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/root/ws/install" TYPE FILE FILES
-    "/root/ws/build/catkin_generated/installspace/setup.zsh"
-    "/root/ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/root/Indutrial_IT_Project/workspace/install" TYPE FILE FILES
+    "/root/Indutrial_IT_Project/workspace/build/catkin_generated/installspace/setup.zsh"
+    "/root/Indutrial_IT_Project/workspace/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/root/ws/install/setup.fish;/root/ws/install/local_setup.fish")
+   "/root/Indutrial_IT_Project/workspace/install/setup.fish;/root/Indutrial_IT_Project/workspace/install/local_setup.fish")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/root/ws/install" TYPE FILE FILES
-    "/root/ws/build/catkin_generated/installspace/setup.fish"
-    "/root/ws/build/catkin_generated/installspace/local_setup.fish"
+file(INSTALL DESTINATION "/root/Indutrial_IT_Project/workspace/install" TYPE FILE FILES
+    "/root/Indutrial_IT_Project/workspace/build/catkin_generated/installspace/setup.fish"
+    "/root/Indutrial_IT_Project/workspace/build/catkin_generated/installspace/local_setup.fish"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/root/ws/install/.rosinstall")
+   "/root/Indutrial_IT_Project/workspace/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/root/ws/install" TYPE FILE FILES "/root/ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/root/Indutrial_IT_Project/workspace/install" TYPE FILE FILES "/root/Indutrial_IT_Project/workspace/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/root/ws/build/gtest/cmake_install.cmake")
-  include("/root/ws/build/demo_pkg/cmake_install.cmake")
-  include("/root/ws/build/test_sensor/cmake_install.cmake")
-  include("/root/ws/build/sensors/cmake_install.cmake")
+  include("/root/Indutrial_IT_Project/workspace/build/gtest/cmake_install.cmake")
+  include("/root/Indutrial_IT_Project/workspace/build/demo_pkg/cmake_install.cmake")
+  include("/root/Indutrial_IT_Project/workspace/build/test_sensor/cmake_install.cmake")
+  include("/root/Indutrial_IT_Project/workspace/build/sensors/cmake_install.cmake")
 
 endif()
 
@@ -160,5 +160,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/root/ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/Indutrial_IT_Project/workspace/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

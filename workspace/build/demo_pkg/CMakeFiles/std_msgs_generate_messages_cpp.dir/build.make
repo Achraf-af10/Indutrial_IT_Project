@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/ws/src
+CMAKE_SOURCE_DIR = /root/Indutrial_IT_Project/workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/ws/build
+CMAKE_BINARY_DIR = /root/Indutrial_IT_Project/workspace/build
 
 # Utility rule file for std_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build: std_msgs_generate_
 .PHONY : demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 
 demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	cd /root/ws/build/demo_pkg && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /root/Indutrial_IT_Project/workspace/build/demo_pkg && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 
 demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend:
-	cd /root/ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ws/src /root/ws/src/demo_pkg /root/ws/build /root/ws/build/demo_pkg /root/ws/build/demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Indutrial_IT_Project/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Indutrial_IT_Project/workspace/src /root/Indutrial_IT_Project/workspace/src/demo_pkg /root/Indutrial_IT_Project/workspace/build /root/Indutrial_IT_Project/workspace/build/demo_pkg /root/Indutrial_IT_Project/workspace/build/demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 

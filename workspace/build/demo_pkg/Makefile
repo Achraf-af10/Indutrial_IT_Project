@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/ws/src
+CMAKE_SOURCE_DIR = /root/Indutrial_IT_Project/workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/ws/build
+CMAKE_BINARY_DIR = /root/Indutrial_IT_Project/workspace/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/ws/build/CMakeFiles /root/ws/build/demo_pkg/CMakeFiles/progress.marks
-	cd /root/ws/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/ws/build/CMakeFiles 0
+	cd /root/Indutrial_IT_Project/workspace/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Indutrial_IT_Project/workspace/build/CMakeFiles /root/Indutrial_IT_Project/workspace/build/demo_pkg/CMakeFiles/progress.marks
+	cd /root/Indutrial_IT_Project/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Indutrial_IT_Project/workspace/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/ws/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/clean
+	cd /root/Indutrial_IT_Project/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/ws/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/preinstall
+	cd /root/Indutrial_IT_Project/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/ws/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/preinstall
+	cd /root/Indutrial_IT_Project/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/Indutrial_IT_Project/workspace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 demo_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /root/ws/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /root/Indutrial_IT_Project/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : demo_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ std_msgs_generate_messages_py: demo_pkg/CMakeFiles/std_msgs_generate_messages_py
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /root/ws/build && $(MAKE) -f demo_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/build.make demo_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /root/Indutrial_IT_Project/workspace/build && $(MAKE) -f demo_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/build.make demo_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 demo_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /root/ws/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+	cd /root/Indutrial_IT_Project/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : demo_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ std_msgs_generate_messages_nodejs: demo_pkg/CMakeFiles/std_msgs_generate_message
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd /root/ws/build && $(MAKE) -f demo_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make demo_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd /root/Indutrial_IT_Project/workspace/build && $(MAKE) -f demo_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make demo_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 demo_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /root/ws/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /root/Indutrial_IT_Project/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : demo_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ std_msgs_generate_messages_lisp: demo_pkg/CMakeFiles/std_msgs_generate_messages_
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /root/ws/build && $(MAKE) -f demo_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make demo_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /root/Indutrial_IT_Project/workspace/build && $(MAKE) -f demo_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make demo_pkg/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 demo_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /root/ws/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+	cd /root/Indutrial_IT_Project/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : demo_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ std_msgs_generate_messages_eus: demo_pkg/CMakeFiles/std_msgs_generate_messages_e
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd /root/ws/build && $(MAKE) -f demo_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make demo_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd /root/Indutrial_IT_Project/workspace/build && $(MAKE) -f demo_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make demo_pkg/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /root/ws/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /root/Indutrial_IT_Project/workspace/build && $(MAKE) -f CMakeFiles/Makefile2 demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -239,7 +239,7 @@ std_msgs_generate_messages_cpp: demo_pkg/CMakeFiles/std_msgs_generate_messages_c
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /root/ws/build && $(MAKE) -f demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /root/Indutrial_IT_Project/workspace/build && $(MAKE) -f demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make demo_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Help Target
@@ -271,6 +271,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/Indutrial_IT_Project/workspace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /root/ws/src
-# Build directory: /root/ws/build
+# Source directory: /root/Indutrial_IT_Project/workspace/src
+# Build directory: /root/Indutrial_IT_Project/workspace/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
