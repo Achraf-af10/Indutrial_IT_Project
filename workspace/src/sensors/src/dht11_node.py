@@ -5,7 +5,7 @@ from std_msgs.msg import Float32
 import random
 
 # Sur PC on simule
-USE_REAL_SENSOR = False
+USE_REAL_SENSOR = True
 
 # Initialisation ROS
 rospy.init_node('dht11_node')
